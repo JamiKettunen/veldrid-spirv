@@ -21,7 +21,7 @@ jobs:
             build_args: Release win-x86
             build_target: win-x86
             artifact_name: build\Release\win-x86\libveldrid-spirv.dll
-          - os: windows-latest
+          - os: self-hosted
             build_args: Release win-arm64
             build_target: win-arm64
             artifact_name: build\Release\win-arm64\libveldrid-spirv.dll
